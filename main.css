@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 1625px; */
+  /* background-color: rgb(9, 39, 91, 0.2); */
+  text-align: center;
+  font: 1em sans-serif;
+  margin-top: 190px;
+  /* padding: 0px 0px 0px 0px; */
+}
+
+header {
+  background-color: rgb(74, 107, 165, 0.8);
+  border: 10px solid rgb(28, 14, 107);
+  padding: 45px 0px 0px 0px;
+  color: rgb(28, 14, 107);
+  position: fixed;
+  top: 0;
+  /* width: 1606px; */
+}
+#sbar {
+  list-style-type: none;
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(28, 14, 107);
+  width: 1635px;
+  /* width: max-content; */
+}
+
+#slnk {
+  float: left;
+}
+
+#slnk a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#slnk a:hover:not(.active) {
+  background-color: rgb(74, 107, 165, 1);
+}
+.active {
+  background-color: rgb(74, 107, 165, 1);
+}
+
+ main {
+    /* width: 1300px; */
+    background-color: rgb(9, 39, 91, 0.2);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.my_heading {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(28, 14, 107);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div {
+  border: 10px solid rgb(28, 14, 107);
+  padding: 20px;
+  font-size: larger;
+  /* width: 1566px; */
+}
+
+p {
+  text-align: left;
+}
+
+.task {
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(74, 107, 165, 0.8);
+  border: 10px solid rgb(28, 14, 107);
+  color: rgb(28, 14, 107);
+  position: relative;
+  top: 0;
+  /* width: 1606px; */
