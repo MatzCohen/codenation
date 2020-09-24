@@ -23,26 +23,70 @@
         </ul>
       </nav>
     </header>
+    <hr />
     <main>
       <div>
         <h1 class="my_heading">Contact Me</h1>
       </div>
       <hr />
-      <div>
-        <p>
+      <div class="row">
+        <div id="specialdiv" class="column">
           <img width="250" src="images/IMG_2.jpg" alt="Matz Cohen" /><br />
           <br />
-          <b>Matz Cohen</b><br />
-          <b>Mobile: 07802 449 974</b><br />
-          <b>Email: matzcohen@hotmail.com</b>
-        </p>
+          Matz Cohen<br />
+          Mobile: 07802 449 974<br />
+          Email:
+          <a href="mailto:matzcohen@hotmail.com">matzcohen@hotmail.com</a><br />
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/matz-cohen-9b1a4064/"
+            target="_blank"
+            >matzcohen</a
+          >
+        </div>
+        <!-- <hr /> -->
+        <div id="specialdiv" class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            /><br />
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            /><br />
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="Ireland">Ireland</option>
+            </select>
+            <br />
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 170px"
+            ></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
-      <hr />
+      </main>
     </main>
+    <hr>
     <footer>
       <br />
       <br />
-      kjghkjhg jklhjkh kjhjk
+      Created by: Matz Cohen - 2020<br />
+      <a href="contactme.html">Contact me</a>
       <br />
       <br />
     </footer>
