@@ -8,7 +8,6 @@ body {
   text-align: center;
   font: 1em sans-serif;
   margin-top: 0px;
-  /* margin-top: 190px; */
 }
 
 header {
@@ -63,15 +62,6 @@ img {
   margin-right: auto;
 }
 
-/* ul {
-  list-style-type: symbols(*);
-  margin: 0;
-  margin-left: 30px;
-  padding: 0;
-  overflow: hidden;
-  text-align: left;
-} */
-
 ul.b {
   list-style-type: square;
   text-align: left;
@@ -86,6 +76,10 @@ div {
 
 p {
   text-align: left;
+}
+
+#smalltext {
+  font-size: small;
 }
 
 .task {
@@ -149,7 +143,6 @@ input[type="submit"] {
   font-size: medium;
 }
 
-/* Style inputs */
 input[type="text"],
 select,
 textarea {
@@ -161,29 +154,17 @@ textarea {
   resize: vertical;
 }
 
-/* Style the container/contact section */
-/* .container {
-  border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-} */
-
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
-  /* margin-top: 6px;
-  padding: 20px; */
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column,
   input[type="submit"] {
