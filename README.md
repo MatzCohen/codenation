@@ -1,3 +1,3 @@
 # codenation
 CodeNation Coursework
-My wesite by Matz Cohen
+My website by Matz Cohen
