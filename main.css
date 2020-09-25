@@ -57,6 +57,12 @@ main {
   color: rgb(28, 14, 107);
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ul {
   list-style-type: symbols(*);
   margin: 0;
@@ -90,6 +96,10 @@ p {
   list-style-type: none;
   overflow: hidden;
   background-color: rgb(28, 14, 107);
+  width: auto;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #olnk {
